@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 50px 0;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+fieldset {
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 15px;
+    border: 4px solid #3b3b4f;
+
+}
+
+legend {
+    font-size: 1.5rem;
+    color: rgb(252, 235, 235);
+    padding: 0 0.875;
+}
+
+fieldset label, fieldset input {
+    width: 100%;
+    margin: 4px 0;
+}
+
+
+
+input {
+    background-color: #0a0a23;
+    outline: none;
+    color: white;
+    padding: 0.25rem 0.5rem;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: Tahoma;
+}
+
+.account div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+}
+
+.account div input {
+    width: fit-content;
+    margin-right: 1rem;
+}
